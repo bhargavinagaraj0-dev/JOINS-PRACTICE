@@ -1,0 +1,52 @@
+##CUSTOMER TABLE:
+CREATE TABLE CUSTOMERS(
+ customer_id NUMBER(10) PRIMARY KEY ,
+ customer_name VARCHAR(20) not null
+ );
+
+##INSERTED DATA:
+INSERT INTO CUSTOMERS VALUES (1, 'SMITH');
+INSERT INTO CUSTOMERS VALUES (2, 'JHON');
+INSERT INTO CUSTOMERS VALUES (3, 'KELLY');
+INSERT INTO CUSTOMERS VALUES (4, 'PRIYA');
+INSERT INTO CUSTOMERS VALUES (5, 'ROHIT');
+
+##ORDER TABLE:
+CREATE TABLE ORDERS(
+order_id NUMBER(10) PRIMARY KEY,
+order_amount NUMBER(30) not null,
+customer_id NUMBER(10) references CUSTOMERS(customer_id)
+);
+
+##Inserted data:
+INSERT INTO ORDERS VALUES (101, 300,1);
+ INSERT INTO ORDERS VALUES (102,800,3);
+ INSERT INTO ORDERS VALUES (103,1500,2);
+ INSERT INTO ORDERS VALUES (104, 500,2);
+ INSERT INTO ORDERS VALUES (105,1200,5);
+
+##INNER JOIN:
+SELECT CUSTOMERS.customer_name,ORDERS.order_id,ORDERS.order_amount
+FROM CUSTOMERS , ORDERS
+WHERE CUSTOMERS.customer_id=ORDERS.customer_id;
+
+##LEFT JOIN:
+SELECT customer_name,order_id,order_amount
+from CUSTOMERS ,ORDERS
+WHERE CUSTOMERS.customer_id=ORDERS.customer_id(+);
+
+##RIGHT JOIN:
+SELECT customer_name,order_id,order_amount
+from CUSTOMERS ,ORDERS
+WHERE CUSTOMERS.customer_id(+)=ORDERS.customer_id;
+
+##FULL OUTER JOIN:
+select customer_name,order_id,order_amount
+from CUSTOMERS FULL OUTER JOIN ORDERS
+ON CUSTOMERS.customer_id=ORDERS.customer_id;
+
+
+
+
+
+
