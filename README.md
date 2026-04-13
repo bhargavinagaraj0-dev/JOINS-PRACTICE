@@ -52,5 +52,20 @@ This task helps in building a strong understanding of how relational databases f
 
 # OUTPUT:
 
-INNER JOIN:-
+# INNER JOIN:-
+
 <img width="269" height="100" alt="Image" src="https://github.com/user-attachments/assets/b62b7e2e-9735-447f-829d-0a7c1e80eabd" />
+
+# LEFT JOIN:-
+
+<img width="291" height="115" alt="Image" src="https://github.com/user-attachments/assets/48ec957d-e26e-4446-a4fa-c69278cc845c" />
+
+# RIGHT JOIN:- 
+
+<img width="285" height="82" alt="Image" src="https://github.com/user-attachments/assets/732b36ce-079f-4169-802c-d845203bf6d1" />
+
+# FULL JOIN:-
+
+<img width="313" height="98" alt="Image" src="https://github.com/user-attachments/assets/67039963-c04a-48f2-994c-433368f4a303" />
+
+
