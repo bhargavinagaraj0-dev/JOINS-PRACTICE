@@ -16,15 +16,13 @@ MENTOR: NEELA SANTHOSH
 The objective of this task is to understand and implement different types of SQL joins to combine data from multiple related tables in a meaningful way. In relational databases, data is often stored in separate tables to maintain normalization and reduce redundancy. To retrieve meaningful information, it is necessary to combine these tables using join operations.
 In this task, the following joins were performed:
 
-1) INNER JOIN – This join retrieves only the records that have matching values in both tables. It is commonly used when only related data from both tables is required.
+1)INNER JOIN – This join retrieves only the records that have matching values in both tables. It is commonly used when only related data from both tables is required.
    
 2)LEFT JOIN (LEFT OUTER JOIN) – This join retrieves all records from the left table and only the matched records from the right table. If there is no match, NULL values are returned for the right table columns.
 
 3)RIGHT JOIN (RIGHT OUTER JOIN) – This join retrieves all records from the right table and matched records from the left table. If no match exists, NULL values are returned for the left table columns.
 
 4)FULL JOIN (FULL OUTER JOIN) – This join retrieves all records from both tables, including matched and unmatched records. It is useful when complete data from both tables is required regardless of matching conditions.
-
-By performing these joins, data from tables such as customers and orders can be combined effectively to generate useful outputs and insights.
 
 # TOOLS USED:
 1)SQL (Structured Query Language) – Used to write queries for retrieving and manipulating data.
