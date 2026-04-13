@@ -51,3 +51,6 @@ The task was performed using SQL Plus, which is a command-line based tool provid
 This task helps in building a strong understanding of how relational databases function and how multiple tables can be connected using joins. It also improves query-writing skills and enables efficient data retrieval, which is essential for real-world database applications.
 
 # OUTPUT:
+
+INNER JOIN:-
+<img width="269" height="100" alt="Image" src="https://github.com/user-attachments/assets/b62b7e2e-9735-447f-829d-0a7c1e80eabd" />
